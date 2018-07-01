@@ -32,7 +32,7 @@ sudo apt install libglfw3-dev
 **pybind11**
 
 ```
-pip3 install pybind11 --user
+conda install -c conda-forge pybind11
 ```
 
 **Renderer**
@@ -52,7 +52,9 @@ make
 **Chainer**
 
 ```
-pip3 install chainer cupy h5py
+conda install -c conda-forge chainer
+conda install -c conda-forge cupy
+conda install -c conda-forge h5py
 ```
 
 # Dataset
